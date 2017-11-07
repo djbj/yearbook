@@ -1,3 +1,9 @@
+* {
+  /*box-sizing: border-box;*/
+  /*border: 1px solid red;*/
+  /*clear: both;*/
+}
+
 html {
   background: #0025FF;
   color: #fff;
@@ -5,6 +11,7 @@ html {
 
 header {
   padding: 20px;
+  text-align: center;
 }
 
 .logo {
@@ -19,4 +26,28 @@ header {
 .logo img {
   width: 140px;
   margin-top: 55px;
+}
+
+.card {
+  display:  inline-block;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 150px;
+  padding
+}
+.name {
+  font-family: "Courier New", Times, serif;
+  text-align: center;
+  color: black;
+  padding: 5px;
 }
